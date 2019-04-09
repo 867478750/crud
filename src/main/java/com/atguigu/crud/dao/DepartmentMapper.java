@@ -13,7 +13,7 @@ public interface DepartmentMapper {
     int deleteByPrimaryKey(Integer deptId);
 
     int insert(Department record);
-
+//sss
     int insertSelective(Department record);
 
     List<Department> selectByExample(DepartmentExample example);
