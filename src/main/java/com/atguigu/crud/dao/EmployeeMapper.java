@@ -13,7 +13,7 @@ public interface EmployeeMapper {
     int deleteByPrimaryKey(Integer empId);
 
     int insert(Employee record);
-
+//ss
     int insertSelective(Employee record);
 
     List<Employee> selectByExample(EmployeeExample example);
